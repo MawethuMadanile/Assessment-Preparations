@@ -1,0 +1,49 @@
+BookTest
+
+New book is AVAILABLE
+Title cannot be null
+Author cannot be blank
+ISBN uniqueness (if required)
+Status changes correctly
+Equality/hashCode behavior
+etc.
+
+MemberTest
+
+New member has zero books
+Borrow count increments
+Borrow count decrements
+Cannot exceed five books
+Duplicate book prevention
+etc.
+
+LibraryServiceTest
+
+Borrow available book
+Borrow unavailable book
+Return borrowed book
+Return book not owned
+Borrow after return
+Maximum borrow limit
+Null arguments
+Duplicate borrow attempts
+Inventory consistency
+Multiple members borrowing different books
+etc.
+
+InventoryServiceTest
+
+Add book
+Remove book
+Prevent duplicate additions
+Find by title
+Find by ISBN
+Empty inventory
+etc.
+
+Integration tests
+
+Multiple members using the same inventory
+Borrow/return workflow
+Inventory updates after transactions
+Concurrent borrow attempts (if desired)
